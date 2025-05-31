@@ -1,0 +1,6 @@
+{
+    "input": {
+        "input_url": "https://runpod-public-data.s3.us-west-2.amazonaws.com/test-images/test-image.jpg",
+        "test": true
+    }
+}
