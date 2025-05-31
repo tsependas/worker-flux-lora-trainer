@@ -4,7 +4,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 WORKDIR /app
 
 # Install Python 3.12 + build dependencies
-#RUN apt-get update && apt-get install -y --no-install-recommends git\
+RUN apt-get update && apt-get install -y --no-install-recommends git 
 #    python3 python3-venv python3-pip python3-dev \
 #    && rm -rf /var/lib/apt/lists/*
 
